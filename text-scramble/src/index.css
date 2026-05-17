@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Expose";
+  src: url("/fonts/Expose-Variable.ttf");
+}
+@theme {
+    --font-sans: 'Geist', sans-serif;
+    --font-expose: 'Expose', sans-serif;
+    --font-brush:'Alex Brush', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0F1219;
+  color: #FDFDFD;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
